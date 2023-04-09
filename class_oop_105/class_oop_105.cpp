@@ -14,7 +14,18 @@ public :
 
 class matakuliah {
 private:
-	string namaM, kode;
+	string namaM, kode, sks;
+
+public:
+	void input() {
+		cout << "Masukkan Nama Matkul : ";
+		cin >> namaM;
+
+		cout << "Masukkan kode Matkul : ";
+		cin >> kode;
+		cout << "Jumlah SKS : ";
+		cin >> sks;
+	}
 
 
 };
