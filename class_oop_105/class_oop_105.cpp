@@ -2,17 +2,19 @@
 using namespace std;
 
 class mahasiswa {
-public:
+public :
 	string nim, nama;
 
-public:
+public :
 	void cetak() {
 		cout << "NIM : " << nim;
 		cout << "Nama : " << nama;
 	}
 };
 
+class matakuliah {
 
+};
 
 int main() {
 	cout << "Hello World"
