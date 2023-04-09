@@ -13,6 +13,9 @@ public :
 };
 
 class matakuliah {
+private:
+	string namaM, kode;
+
 
 };
 
