@@ -5,8 +5,14 @@ class mahasiswa {
 public:
 	string nim, nama;
 
-
+public:
+	void cetak() {
+		cout << "NIM : " << nim;
+		cout << "Nama : " << nama;
+	}
 };
+
+
 
 int main() {
 	cout << "Hello World"
