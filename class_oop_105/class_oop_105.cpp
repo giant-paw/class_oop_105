@@ -35,5 +35,6 @@ public:
 };
 
 int main() {
-	cout << "Hello World"
+	mahasiswa mhs1;
+	matakuliah mk;
 }
