@@ -44,4 +44,7 @@ int main() {
 	cout << "Masukkan NIM Mahasiswa : ";
 	cin >> mhs1.nim;
 	mhs1.cetak();
+
+	mk.input();
+	mk.tampil();
 }
